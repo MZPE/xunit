@@ -257,6 +257,8 @@ namespace Xunit.Runner.InProc.SystemConsole
 			Console.WriteLine("  -noautoreporters      : do not allow reporters to be auto-enabled by environment");
 			Console.WriteLine("                        : (for example, auto-detecting TeamCity or AppVeyor)");
 			Console.WriteLine("  -preenumeratetheories : enable theory pre-enumeration (disabled by default)");
+			Console.WriteLine("  -tcp port             : launches in v3 child process mode, connecting to the given");
+			Console.WriteLine("                        : TCP port (on localhost) for IPC.");
 			Console.WriteLine();
 			// TODO: Should we offer a more flexible (but harder to use?) generalized filtering system?
 			Console.WriteLine("Filtering (optional, choose one or more)");
